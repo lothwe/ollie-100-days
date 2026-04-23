@@ -87,7 +87,7 @@ textarea { resize: vertical; min-height: 65px; }
   <div class="right-col">
     <p class="tagline">You're invited</p>
     <h1 class="event-title">Oliver's 100 Days Dinner</h1>
-    <p class="event-subtitle">Oliver's grandparents are hosting a belated celebration! Join us to enjoy a meal at our favourite restaurant and meet Oliver for the very first time.</p>
+    <p class="event-subtitle">Oliver's grandparents are hosting a (belated) celebration for Ollie's 100 days birthday! Join us to enjoy a meal at our favourite restaurant and meet Oliver for the very first time.</p>
 
     <div class="gold-divider"><div class="gold-line"></div><div class="gold-diamond"></div><div class="gold-line"></div></div>
 
@@ -144,7 +144,7 @@ textarea { resize: vertical; min-height: 65px; }
 
       <div class="field">
         <label class="field-label" for="email">Email address</label>
-        <input type="email" id="email" placeholder="your@email.com">
+        <input type="email" id="email" placeholder="yourname@email.com">
       </div>
 
       <div class="field">
@@ -178,7 +178,7 @@ textarea { resize: vertical; min-height: 65px; }
     <div class="success-card" id="success-card">
       <div class="big">&#x1F3EE;</div>
       <h2 id="success-title">See you there!</h2>
-      <p id="success-msg">Thanks for RSVPing. We can't wait to celebrate little Oliver with you on June 20th at Burnaby Palace.</p>
+      <p id="success-msg">Thanks for RSVPing. We can't wait to celebrate with you!</p>
     </div>
 
     <p class="footer-note">
@@ -242,7 +242,7 @@ function addToCalendar(e) {
   const end = '20250620T210000';
   const title = encodeURIComponent("Oliver's 100 Days Dinner");
   const location = encodeURIComponent('Burnaby Palace, 3110 Boundary Rd, Burnaby, BC');
-  const details = encodeURIComponent("A belated celebration of Oliver's 100th day! Join family and friends to meet Oliver for the first time.");
+  const details = encodeURIComponent("A belated celebration of Oliver's 100th day!");
   window.open('https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + title + '&dates=' + start + '/' + end + '&location=' + location + '&details=' + details, '_blank');
 }
 </script>
