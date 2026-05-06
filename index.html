@@ -189,7 +189,7 @@ const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxvKCtkWY9PJvqjIdh0N
 
 const params = new URLSearchParams(window.location.search);
 const guestParam = params.get('guests') || '';
-const preGuests = guestParam ? guestParam.split(',').map(g => g.trim()).filter(Boolean) : ['Guest 1', 'Guest 2', 'Guest 3'];
+const preGuests = guestParam ? guestParam.split(',').map(g => g.trim()).filter(Boolean) : ['Me', 'Partner', 'Child'];
 
 const list = document.getElementById('guests-list');
 preGuests.forEach(function(name, i) {
