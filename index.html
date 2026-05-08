@@ -196,7 +196,7 @@ const list = document.getElementById('guests-list');
 preGuests.forEach(function(name, i) {
   const item = document.createElement('label');
   item.className = 'check-item';
-  item.innerHTML = '<input type="checkbox" id="g' + i + '" value="' + name + '" checked><span>' + name + '</span>';
+  item.innerHTML = '<input type="checkbox" id="g' + i + '" value="' + name + '"><span>' + name + '</span>';
   list.appendChild(item);
 });
 
